@@ -27,9 +27,6 @@
     "release": "rm -rf ./dist && yarn build && cp ./LICENSE.md ./dist/ && cp ./README.md ./dist/ && npm publish",
     "deploy": "gh-pages -d example/build"
   },
-  "peerDependencies": {
-    "react": "^17.0.2"
-  },
   "devDependencies": {
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^21.0.0",
